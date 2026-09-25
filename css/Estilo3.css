@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #add8e6;
+    padding: 30px 40px;
+    text-align: left;
+}
+
+header h1 {
+    color: #000000;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #333333;
+    font-size: 0.9rem;
+}
+
+nav {
+    background-color: #00008b;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 40px;
+    background-color: #ffffff;
+}
+
+main section {
+    background-color: #ffffff;
+    border: 1px solid #777777;
+    padding: 25px 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+main section h2 {
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+main section p {
+    color: #333333;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+main section button {
+    background-color: #00008b;
+    color: #ffffff;
+    border: none;
+    padding: 8px 14px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+footer {
+    background-color: #d3d3d3;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 0.85rem;
+}
